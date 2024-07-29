@@ -61,7 +61,7 @@ footer {
 }
 .v-post__date {
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 16px;
 }
 .v-post__img {
     border-radius: 8px;
@@ -73,7 +73,7 @@ footer {
     width: 45%;
 }
 .v-post--small .v-post__img {
-    height: 20rem;
+    height: 15rem;
 }
 .aside-container {
     margin-left: 2rem;
@@ -82,14 +82,15 @@ footer {
 }
 .categoria {
     border-radius: 8px;
-    height: 5rem;
+    height: 6rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 4rem;
 }
 .categoria:not(:first-of-type) {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .categoria__img {
     height: 100%;
@@ -97,7 +98,7 @@ footer {
     object-fit: cover;
 }
 .categoria__text {
-    font-size: 2rem;
+    font-size: 32px;
     margin-right: 1rem;
     text-align: right;
     color: #ffffff;
@@ -125,7 +126,6 @@ footer {
     color:#171717 ;
     font-weight: 400;
     font-size: 20px;
-    text-align: left;
 }
 .h-post {
     display: flex;
@@ -148,7 +148,7 @@ footer {
 }
 .h-post__date {
     font-weight: 400;
-    font-size: 0.8rem;
+    font-size: 16px;
 }
 .user {
     display: flex;
@@ -171,7 +171,10 @@ footer {
     margin-right: 1rem;
 }
 .user__text {
-    font-weight: 400;
+    font-size:24px ;
+}
+.user__text--small {
+    font-size:16px ;
 }
 .user-small {
     height: 2rem;
@@ -182,6 +185,7 @@ footer {
 }
 .footer__text {
     font-weight: 400;
+    font-size: 20px;
 }
 .section__title,.aside-container__title{
     margin: 0 4rem;
