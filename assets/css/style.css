@@ -177,9 +177,9 @@ footer {
 .user__text--small {
     font-size:16px ;
 }
-.user-small {
+/* .user-small {
     height: 2rem;
-}
+} */
 .v-post__title,
 .h-post__title {
     font-weight: 700;
